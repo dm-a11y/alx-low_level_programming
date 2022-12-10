@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- *
  * main - main function
+ *
  * main prints all the numbers of hexadeciaml in lowercase.
+ * 
  * Return: 0
  */
 
