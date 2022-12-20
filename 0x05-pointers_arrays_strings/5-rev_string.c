@@ -2,9 +2,7 @@
 
 /**
  * rev_string - reverse a string
- *
- * @s: a pointer variable to the string to be reverse
- *
+ * @s: a pointer variable to the string to be reversed
  * Return: nothing
  */
 void rev_string(char *s)
@@ -16,18 +14,17 @@ void rev_string(char *s)
 	char *r = s;
 	char q;
 
-	while (*r != '\n')
+	while (*r != '\0')
 	{
-
 		r++;
 		length++;
 	}
 	n = length - 1;
-	for (; o < ((l / 2) + 1) ; o++)
+	for (; o < ((n / 2) + 1) ; o++)
 	{
-		x = (1 - o);
+		p = (n - o);
 		q = s[o];
 		s[o] = s[p];
 		s[p] = q;
 	}
-}	
+}
