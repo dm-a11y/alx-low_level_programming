@@ -16,7 +16,7 @@ void reverse_array(int *a, int n)
 	while (x < n)
 	{
 		rev = *(a + x);
-		*(a +x) = *(a + n);
+		*(a + x) = *(a + n);
 		*(a + n) = rev;
 		n--;
 		x++;
