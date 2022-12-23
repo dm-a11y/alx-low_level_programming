@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_number - prints numbers from 0 up to 9 followed by a new line
+ * print_number - prints numbers from 0 up to 9 except 2 and 4 followed a new line
  *
  *
  *
