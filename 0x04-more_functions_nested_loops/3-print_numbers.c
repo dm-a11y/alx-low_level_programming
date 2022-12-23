@@ -1,19 +1,17 @@
 #include "main.h"
 
 /**
- * print_number - prints numbers from 0 up to 9 except 2 and 4 followed a new line
- *
- *
+ * print_numbers - print numbers from 0 upto 9
  *
  * Return: nothing
  */
 void print_numbers(void)
 {
-	int n;
+	int x;
 
-	for (n = 48; n <= 57; n++)
+	for (x = 48; x <= 57; x++)
 	{
-		_putchar(n);
+		_putchar(x);
 	}
 	_putchar('\n');
 }
