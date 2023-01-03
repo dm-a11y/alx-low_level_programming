@@ -5,7 +5,7 @@
  * @haystack: string
  * @needle: substring
  *
- * Return: a pointer to the beginning of the located substring, or NULL if the substr * ing not is found.
+ * Return: a pointer to the beginning of the located substring, or NULL if the subst * ing not is found.
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -24,4 +24,3 @@ char *_strstr(char *haystack, char *needle)
 	}
 	return (0);
 }
-
