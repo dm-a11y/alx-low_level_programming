@@ -2,12 +2,11 @@
 
 /**
  * _strspn - gets the length of prefix substring
- * @s: initial segemet 
- * @acccept: source of bytes 
+ * @s: initial segemet
+ * @acccept: source of bytes
  *
  * Return: the number of bytes in the initial segment of s.
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i, j, bool;
@@ -27,4 +26,4 @@ unsigned int _strspn(char *s, char *accept)
 			break;
 	}
 	return (i);
-}	
+}
