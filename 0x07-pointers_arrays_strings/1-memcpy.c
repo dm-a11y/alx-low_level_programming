@@ -6,7 +6,7 @@
  * @dest: destination
  * @n: bytes filled
  *
- * Returns: dest.
+ * Return: dest.
  *
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
