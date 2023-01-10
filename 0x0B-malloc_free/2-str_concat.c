@@ -25,7 +25,10 @@ char *str_concat(char *s1, char *s2)
 
 
 	if (concatstr == NULL)
+	{
+		free(concatstr);
 		return (NULL);
+	}
 
 	for (x = 0; s1[x]; x++)
 		concatstr[y++] = s1[x];
