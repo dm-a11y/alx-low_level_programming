@@ -18,11 +18,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return ("");
 	if (s2 == NULL)
 		return ("");
-
 	for (s1len = 0; s1[s1len] != '\0'; s1len++)
 		;
+	
 	for (s2len = 0; s2[s2len] != '\0'; s2len++)
 		;
+
+	if (n > s1len)
+		n = s1len;
 
 	concat_str = malloc(sizeof(char) * s1len + n + 1);
 
